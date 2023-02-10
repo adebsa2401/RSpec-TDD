@@ -108,7 +108,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd my-project
+  cd RSpec-TDD
   bundle install
 ```
 
@@ -117,7 +117,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  ruby main.rb
+  rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
