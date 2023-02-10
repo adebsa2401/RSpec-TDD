@@ -19,7 +19,7 @@ describe Solver do
 
     it "should raise an error when given a negative number" do
       solver = Solver.new
-      expect(solver.factorial(-1)).to raise_error
+      expect { solver.factorial(-1) } .to raise_error "Negative numbers not allowed"
     end
   end
 
